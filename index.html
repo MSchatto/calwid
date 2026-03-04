@@ -1,74 +1,106 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Datenschutzerklärung – CalWid</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; margin: 24px; line-height: 1.55; color: #111; }
-    h1 { margin-top: 0; }
-    h2 { margin-top: 28px; }
-    .box { background: #f6f7f9; border: 1px solid #e5e7eb; padding: 14px 16px; border-radius: 10px; }
-    a { color: #0a66c2; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CalWid Privacy Policy</title>
+
+<style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+    margin: 40px;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+.lang {
+    display: none;
+}
+
+.lang.active {
+    display: block;
+}
+
+.switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+button {
+    padding: 6px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+</style>
+
+<script>
+function setLang(lang) {
+    document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
+    document.getElementById(lang).classList.add('active');
+}
+</script>
+
 </head>
+
 <body>
+
+<div class="switch">
+<button onclick="setLang('de')">DE</button>
+<button onclick="setLang('en')">EN</button>
+</div>
+
+<div id="de" class="lang active">
 
 <h1>Datenschutzerklärung – CalWid</h1>
 
-<div class="box">
-  <p><strong>Kurzfassung:</strong> CalWid verarbeitet Kalenderdaten ausschließlich lokal auf deinem Gerät. Es werden keine Daten an Server übertragen. Es gibt kein Tracking und keine Werbung.</p>
-</div>
+<p>CalWid ist ein Kalender-Widget für iOS. Die App verarbeitet keine personenbezogenen Daten außerhalb deines Geräts.</p>
 
-<h2>1. Verantwortlicher</h2>
-<p>
-  Michael Schatto<br />
-  E-Mail: <a href="mailto:calwid@gmx.de">calwid@gmx.de</a>
-</p>
+<h2>Kalenderdaten</h2>
 
-<h2>2. Welche Daten verarbeitet die App?</h2>
-<p>
-  CalWid zeigt Termine aus deinem iOS-Kalender (und optional Erinnerungen) in einem Widget an. Dazu kann die App – nach deiner Zustimmung – auf Kalender- und/oder Erinnerungsdaten zugreifen.
-</p>
+<p>Die App greift ausschließlich lokal auf Kalenderdaten zu, um Termine im Widget darzustellen.</p>
 
-<h2>3. Zweck der Verarbeitung</h2>
-<p>
-  Die Verarbeitung erfolgt ausschließlich, um deine nächsten Termine bzw. Erinnerungen im Widget anzuzeigen und – falls konfiguriert – beim Tippen auf das Widget eine Kalender-App zu öffnen.
-</p>
-
-<h2>4. Speicherung und Übertragung</h2>
 <ul>
-  <li>Alle Kalender-/Erinnerungsdaten bleiben auf deinem Gerät.</li>
-  <li>Es findet keine Übertragung an Server des Entwicklers statt.</li>
-  <li>Die App verändert, erstellt oder löscht keine Kalendereinträge.</li>
+<li>Es werden keine Daten an Server übertragen.</li>
+<li>Es erfolgt kein Tracking.</li>
+<li>Die App enthält keine Werbung.</li>
 </ul>
 
-<h2>5. Berechtigungen</h2>
-<p>
-  Du kannst den Zugriff jederzeit in iOS unter <strong>Einstellungen → Datenschutz &amp; Sicherheit → Kalender</strong> bzw. <strong>Erinnerungen</strong> ändern oder entziehen. Ohne Zugriff kann das Widget die Inhalte nicht anzeigen.
-</p>
+<h2>In-App Käufe</h2>
 
-<h2>6. Tracking / Analyse / Werbung</h2>
-<p>
-  CalWid verwendet keine Tracking-Technologien, keine Analyse-SDKs und keine Werbe-SDKs.
-</p>
+<p>Zahlungen werden über Apple abgewickelt. Apple verarbeitet die notwendigen Daten gemäß seiner Datenschutzrichtlinie.</p>
 
-<h2>7. In-App-Käufe / Zahlungen</h2>
-<p>
-  Käufe werden über den Apple App Store abgewickelt. Apple verarbeitet dafür notwendige Daten gemäß den Apple-Datenschutzrichtlinien. Der Entwickler erhält keine Zahlungsdaten (z. B. Kreditkarteninformationen).
-</p>
+<h2>Kontakt</h2>
 
-<h2>8. Kontakt</h2>
-<p>
-  Wenn du Fragen zum Datenschutz hast, schreibe bitte an: <a href="mailto:calwid@gmx.de">calwid@gmx.de</a>
-</p>
+<p>E-Mail: calwid@gmx.de</p>
 
-<h2>9. Änderungen</h2>
-<p>
-  Diese Datenschutzerklärung kann aktualisiert werden, z. B. bei funktionalen Änderungen der App.
-</p>
+</div>
 
-<p><em>Stand: 04.03.2026</em></p>
+<div id="en" class="lang">
+
+<h1>Privacy Policy – CalWid</h1>
+
+<p>CalWid is a calendar widget for iOS. The app does not collect or transmit personal data.</p>
+
+<h2>Calendar Data</h2>
+
+<p>The app only accesses calendar data locally on the device to display events in the widget.</p>
+
+<ul>
+<li>No data is transmitted to external servers.</li>
+<li>No tracking technologies are used.</li>
+<li>The app does not contain advertising.</li>
+</ul>
+
+<h2>In-App Purchases</h2>
+
+<p>Purchases are processed by Apple via the App Store. Apple handles the necessary payment data according to its privacy policy.</p>
+
+<h2>Contact</h2>
+
+<p>Email: calwid@gmx.de</p>
+
+</div>
 
 </body>
 </html>
